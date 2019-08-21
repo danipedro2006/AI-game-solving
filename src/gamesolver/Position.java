@@ -6,6 +6,7 @@ public class Position {
 	public Position(int row, int column) {
 		this.row = row;
 		this.column = column;
+		
 	}
 
 	public int getRow() {
@@ -15,7 +16,7 @@ public class Position {
 	public int getColumn() {
 		return column;
 	}
-
+	@Override
 	public boolean equals(Object obj) {
 		if (this == obj) {
 			return true;
@@ -29,4 +30,6 @@ public class Position {
 		}
 		return false;
 	}
+
+		
 }
