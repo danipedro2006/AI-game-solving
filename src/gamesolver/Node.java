@@ -3,6 +3,7 @@ package gamesolver;
 import java.util.List;
 
 public class Node {
+	
 	private final char value;
 	private final Position position;
 	private final List<Position> neighbours;
@@ -15,14 +16,17 @@ public class Node {
 	}
 
 	public char getValue() {
+		
 		return value;
 	}
 
 	public Position getPosition() {
+		
 		return position;
 	}
 
 	public List<Position> getNeighbours() {
+		
 		return neighbours;
 	}
 

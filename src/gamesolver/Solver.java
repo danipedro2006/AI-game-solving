@@ -14,6 +14,7 @@ public class Solver extends WithDictionary implements BoggleSolver {
 		Set<String> foundWords = new HashSet<String>();
 
 		for (Node startingNode : board.getNodes()) {
+			
 			Set<Position> visited = new HashSet<Position>();
 			visited.add(startingNode.getPosition());
 			findAll("" + startingNode.getValue(), startingNode, board, words, foundWords, visited);
@@ -23,6 +24,7 @@ public class Solver extends WithDictionary implements BoggleSolver {
 
 	private void findAll(String currentWord, Node currentNode, Board board, Set<String> words, Set<String> foundWords,
 			Set<Position> visited) {
+		
 		if(currentWord.length()>20) return;
 		if (words.contains(currentWord)) {
 			foundWords.add(currentWord);
@@ -31,10 +33,12 @@ public class Solver extends WithDictionary implements BoggleSolver {
 		List<Node> neighbours = new ArrayList<Node>();
 		
 		for (Position neighbour : currentNode.getNeighbours()) {
+			
 			neighbours.add(positionToNode(neighbour, board));
 		}
 		
 		for (Node neighbour : neighbours) {
+			
 			if (visited.contains(neighbour.getPosition())) continue;
 			visited.add(neighbour.getPosition());
 			findAll(currentWord + neighbour.getValue(), neighbour, board, words, foundWords, visited);
@@ -43,6 +47,7 @@ public class Solver extends WithDictionary implements BoggleSolver {
 	}
 
 	private Node positionToNode(Position position, Board board) {
+		
 		for (Node node : board.getNodes()) {
 			if (position.equals(node.getPosition())) return node;
 					}
