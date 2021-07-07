@@ -15,10 +15,10 @@ Code project includes:
 - Boggle solver (primary focus on DFS)
 - N-puzzle solver (DFS, BFS, A*, IDA*)
 - Connect Four (random, Monte Carlo, minimax, alpha-beta prunning)
-- Diamond Dash	
+- NQueens Problem
 
 ## Screenshots
-[Click-me!](TBA)
+NQueens Screenshot[Click-me!]
 
 ## Technologies
 * Java - version 1.8
