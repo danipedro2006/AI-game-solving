@@ -1,4 +1,7 @@
+/*
+implementation of minmax algorithm
 
+*/
 public class GT {
 
 	// return the optimal value a maximiser can obtain
@@ -6,7 +9,7 @@ public class GT {
 	// scores[]-store leaves in game tree
 	// isMax- is true if current move is maximiser
 	// nodeIndex-is index of current node in scores[]
-
+	
 	public static void main(String[] args) {
 
 		int scores[] = { 3, 5, 2, 9};
