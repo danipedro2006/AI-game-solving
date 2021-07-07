@@ -8,14 +8,14 @@ public class Queens {
 
 	static // queen position i, queen[i]
 
-//	void solve(int N) {
-//		if(placequeen(0,N)) {
-//			display(table);
-//		}
-//		else {
-//			System.out.println("No solution");
-//		}
-//	}
+	// void solve(int N) {
+	// if(placequeen(0,N)) {
+	// display(table);
+	// }
+	// else {
+	// System.out.println("No solution");
+	// }
+	// }
 
 	void init(int[][] table) {
 
