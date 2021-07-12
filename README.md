@@ -26,7 +26,7 @@ Code project includes:
 
 
 ## Status
-Project is:Under development. New interest spark. 
+Project is under development. New interest spark. 
 
 
 ## Contact
