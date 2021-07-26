@@ -18,7 +18,7 @@ Code project includes:
 - NQueens Problem
 
 ## Screenshots
-[NQueens Solver Demo](https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif)
+![NQueens Solver Demo](https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif)
 
 ## Technologies
 * Java - version 1.8
