@@ -36,4 +36,4 @@ Project is under development. New interest spark.
 ## Contact
 Created by @Danisoft Arad 2021(https://danipedro2006.github.io/) - feel free to contact me!  
 
-[Follow us on LinkedIn](https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/linkedin.png)
+[Follow us on LinkedIn]![https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/linkedin.png]
