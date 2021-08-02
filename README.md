@@ -17,10 +17,13 @@ Code project includes:
 - Connect Four (random, Monte Carlo, minimax, alpha-beta prunning)
 - NQueens Visualization
 
-## Screenshots
-- NQueens Visualization
-<img src=(https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/ckrkwtoLfY.gif width="290"  height="280")>
-<img src=(https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif)>
+## Screenshots-Acceleration  
+<img src=https://github.com/danipedro2006/JavaScript-Games-programming/blob/default/acceleration/cwHLrlmTMX.gif width="300" height="200">  
+
+## NQueens Visualization  
+<img src=https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/ckrkwtoLfY.gif width="290"  height="280">  
+
+<img src=https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif>
 
 ## Technologies
 * Java - version 1.8
@@ -32,5 +35,5 @@ Project is under development. New interest spark.
 
 
 ## Contact
-Created by @Danisoft Arad 2021(https://danipedro2006.github.io/) - feel free to contact me!
+Created by @Danisoft Arad 2021(https://danipedro2006.github.io/) - feel free to contact me!  
 [![Follow us on ](https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/linkedin.png)]
