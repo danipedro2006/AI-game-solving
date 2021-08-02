@@ -18,7 +18,7 @@ Code project includes:
 - NQueens Problem
 
 ## Screenshots
-![NQueens Visualizer](https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/ckrkwtoLfY.gif)
+![NQueens Visualizer](https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/ckrkwtoLfY.gif width="290"  height="280")
 ![NQueens Solver Demo](https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif)
 
 ## Technologies
