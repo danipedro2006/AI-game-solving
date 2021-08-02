@@ -12,18 +12,17 @@ Demonstration of practical usage of searching techniques like dept=first search,
 
 Code project includes:
 
-- Boggle solver (primary focus on DFS)
-- N-puzzle solver (DFS, BFS, A*, IDA*)
-- Connect Four (random, Monte Carlo, minimax, alpha-beta prunning)
-- NQueens Visualization
-
-## Screenshots-Acceleration  
-<img src=https://github.com/danipedro2006/JavaScript-Games-programming/blob/default/acceleration/cwHLrlmTMX.gif width="300" height="200">  
+- Boggle solver (primary focus on DFS)  
+- N-puzzle solver (DFS, BFS, A*, IDA*)  
+- Connect Four (random, Monte Carlo, minimax, alpha-beta prunning)  
+- NQueens Visualization  
+- NQueens Solver  
 
 ## NQueens Visualization  
 <img src=https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/ckrkwtoLfY.gif width="290"  height="280">  
 
-<img src=https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif>
+## NQueens Solver    
+<img src=https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif width="290"  height="300">
 
 ## Technologies
 * Java - version 1.8
@@ -36,4 +35,5 @@ Project is under development. New interest spark.
 
 ## Contact
 Created by @Danisoft Arad 2021(https://danipedro2006.github.io/) - feel free to contact me!  
-[![Follow us on ](https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/linkedin.png)]
+
+[Follow us on LinkedIn](https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/linkedin.png)
