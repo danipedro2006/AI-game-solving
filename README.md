@@ -17,11 +17,15 @@ Code project includes:
 - Connect Four (random, Monte Carlo, minimax, alpha-beta prunning)  
 - NQueens Visualization  
 - NQueens Solver  
+- Hanoi Tower
 
 ## NQueens Visualization  
 <img src=https://github.com/danipedro2006/AI-game-solving/blob/master/NQuenns%20visualization/ckrkwtoLfY.gif width="290"  height="280">  
 
 ## NQueens Solver    
+<img src=https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif width="290"  height="300">
+
+## Hanoi Tower    
 <img src=https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif width="290"  height="300">
 
 ## Technologies
