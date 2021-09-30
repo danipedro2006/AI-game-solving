@@ -26,7 +26,7 @@ Code project includes:
 <img src=https://github.com/danipedro2006/AI-game-solving/blob/master/NQueensGUI/onfLrFBnvD.gif width="290"  height="300">
 
 ## Hanoi Tower    
-<img src=https://github.com/danipedro2006/AI-game-solving/blob/master/Hanoi/pbm6gX8IgH.gif width="400"  height="100">
+<img src=https://github.com/danipedro2006/AI-game-solving/blob/master/Hanoi/pbm6gX8IgH.gif width="400"  height="200">
 
 ## Technologies
 * Java - version 1.8
