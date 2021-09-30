@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 import javax.swing.JPanel;
 
-class Tower extends JPanel{
-	JPanel panel=new JPanel();
+class Tower{
+	 
 	private String Name="";
 	private  ArrayList<Integer> disks;
 	private int xPos=0;
@@ -21,7 +21,7 @@ class Tower extends JPanel{
 			this.addDisks(numOfDisks);
 			numOfDisks--;
 		}
-		this.setPosition(300, 300);
+		
 	}
 	
 	public void setPosition(int xPos, int yPos) {
@@ -35,15 +35,32 @@ class Tower extends JPanel{
 
 	public void paint(Graphics g) {
 		int numOfDisks=disks.size();
-		for(int i=0;i<numOfDisks-2;i++) {
-			
-			int diskVal=disks.get(i);
-			int lastX=this.xPos+i*5;
-			int lastY=this.yPos-i*20;
-			int height=diskVal*10;
+		for(int i=0;i<numOfDisks;i++) {
+			int diskVal=0;
+			diskVal=disks.get(i);
+			int width=diskVal*20;
+			int lastX,lastY;
+			lastX=this.xPos-width/2;;
+			lastY=this.yPos-i*20;
 			g.setColor(Color.BLUE);
-			g.fillRoundRect(lastX, lastY, height, 10, 10, 10);
-			
+			g.fillRoundRect(lastX, lastY, width, 10, 10, 10);
 		}
+		g.setColor(Color.BLUE);
+		g.drawString(this.Name, this.xPos, this.yPos+30);
+	}
+
+	public int removeDisk() {
+		int lastElem=disks.size();
+		int retVal=0;
+		if(lastElem>0) {
+			retVal=disks.get(lastElem-1);
+			disks.remove(lastElem-1);
+		}
+		return retVal;
+	}
+
+	public void addDisk(int diskVal) {
+		disks.add(diskVal);
+		
 	}
 }
